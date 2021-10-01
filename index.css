@@ -1,0 +1,42 @@
+body{
+max-width: 800px;
+margin: auto;
+height: 400px;
+}
+.category{
+font-size: 20px;
+color:Black;
+font-weight: bold;
+padding-top: 10px;
+text-align: center;
+height: 50px;
+}
+
+.answer{
+    font-size: 13px;
+    font-weight: bolder;
+}
+.api-footer{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.api-footer div{
+    font-size: 16px;
+    color:green;
+
+}
+#error{
+    background: hotpink;
+    padding:30px;
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+#error button{
+    padding: 10px;
+    background: red;
+    color: white;
+    
+}
